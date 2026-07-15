@@ -18,7 +18,7 @@ repo init --depth=1 -u https://github.com/Pixelify-AOSP/platform_manifest -b 17 
 
 git clone https://github.com/Infinity-X-Devices/android_device_xiaomi_mojito.git -b 17-wip device/xiaomi/mojito
 git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm6150-common.git -b 17-wip device/xiaomi/sm6150-common
-git clone git@github.com:K4LCHAKRA/kernel_xiaomi_mojito.git -b bpf-5.10-working kernel/xiaomi/mojito
+git clone https://github.com/K4LCHAKRA/kernel_xiaomi_mojito.git -b bpf-5.10-working kernel/xiaomi/mojito
 
 git clone https://gitlab.com/mojito22/android_vendor_xiaomi_mojito.git -b qpr1 vendor/xiaomi/mojito
 git clone https://gitlab.com/mojito22/android_vendor_xiaomi_sm6150-common.git -b 16 vendor/xiaomi/sm6150-common
