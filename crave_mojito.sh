@@ -32,3 +32,6 @@ repo init --depth=1 -u https://github.com/VoltageOS/manifest.git -b 17 --git-lfs
 
 # mka kernel
 # mka precompiled_sepolicy
+
+. build/envsetup.sh
+brunch mojito
