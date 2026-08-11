@@ -29,7 +29,7 @@ repo init --depth=1 -u https://github.com/VoltageOS/manifest.git -b 17 --git-lfs
 
 git clone https://github.com/Infinity-X-Devices/device_xiaomi_mojito.git -b 17-vos device/xiaomi/mojito
 git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm6150-common.git -b 17-vos device/xiaomi/sm6150-common
-git clone git@github.com:K4LCHAKRA/kernel_xiaomi_mojito.git -b 15-QPR2-los-FN-5.4-5.10-CK kernel/xiaomi/mojito
+git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm6150-common.git -b 15-QPR2-los-FN-5.4-5.10-CK kernel/xiaomi/mojito
 
 git clone https://gitlab.com/mojito22/android_vendor_xiaomi_mojito.git -b qpr1 vendor/xiaomi/mojito
 git clone https://gitlab.com/mojito22/android_vendor_xiaomi_sm6150-common.git -b 16 vendor/xiaomi/sm6150-common
