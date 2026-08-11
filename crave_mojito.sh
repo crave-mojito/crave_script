@@ -2,6 +2,8 @@
 # repo init --depth=1 -u https://github.com/ProjectMatrixx/android -b 16.2 --git-lfs
 # repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault
 # repo init -u https://github.com/RisingOS-Revived/android -b sixteen --git-lfs
+repo init --depth=1 -u https://github.com/VoltageOS/manifest.git -b 17 --git-lfs
+# repo sync
 /opt/crave/resync.sh
 # git clone https://github.com/Infinity-X-Devices/android_device_xiaomi_mojito.git -b 16.0 device/xiaomi/mojito
 # git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm6150-common.git -b 16.0 device/xiaomi/sm6150-common
