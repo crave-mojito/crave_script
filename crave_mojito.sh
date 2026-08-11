@@ -36,6 +36,9 @@ git clone https://gitlab.com/mojito22/android_vendor_xiaomi_sm6150-common.git -b
 rm -rf hardware/xiaomi
 git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 
+rm -rf vendor/voltage-priv/keys
+git clone https://github.com/mojito-keys/vendor_voltage-priv_keys.git -b main vendor/voltage-priv/keys
+
 # . build/envsetup.sh
 # lunch custom_mojito-cp2a-userdebug
 # mka bacon
